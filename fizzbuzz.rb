@@ -2,20 +2,8 @@
 # See README.md for instructions on how to do this
 require_relative './fizzbuzz_spec.rb'
 
-def fizzbuzz(int)
+def fizz_3(int)
   if int % 3 == 0
     "Fizz"
   end
-  
-  elsif int % 5 == 0 
-    "Buzz"
-  end
-  
-  elsif int % 15 == 0 
-    "FizzBuzz"
-  end
-  
-  else int % 4 == 0 
-    "nil"
-  end
-end
+end 
