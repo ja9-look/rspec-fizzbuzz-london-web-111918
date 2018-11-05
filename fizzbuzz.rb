@@ -4,6 +4,6 @@ require_relative './fizzbuzz_spec.rb'
 
 def fizzbuzz(int)
   if int % 3 == 0
-    return "Fizz"#
+    return "Fizz"
   end
 end
