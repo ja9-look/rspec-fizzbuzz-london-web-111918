@@ -3,6 +3,6 @@
 
 
 def fizzbuzz 
-  if fizz_3 = fizzbuzz(3)
+  if fizzbuzz % 3 == 0
     return "Fizz"
 end
